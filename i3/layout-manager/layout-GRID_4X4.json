@@ -1,0 +1,106 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"percent": 0.333333333333333,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"percent": 0.5,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 461,
+					"width": 654,
+					"x": 0,
+					"y": 0
+				},
+				"name": "sudo /home/ermal",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": ""
+				}
+				],
+				"type": "con"
+			},
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 461,
+					"width": 654,
+					"x": 0,
+					"y": 0
+				},
+				"name": "fish /home/ermal",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": ""
+				}
+				],
+				"type": "con"
+			}
+			]
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"percent": 0.5,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 461,
+					"width": 654,
+					"x": 0,
+					"y": 0
+				},
+				"name": "ermal@ermal:~",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": ""
+				}
+				],
+				"type": "con"
+			},
+			{
+				"border": "pixel",
+				"current_border_width": 0,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 461,
+					"width": 654,
+					"x": 0,
+					"y": 0
+				},
+				"name": "fish /home/ermal",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": ""
+				}
+				],
+				"type": "con"
+			}
+			]
+		}
+	]
+}
+]
