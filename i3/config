@@ -222,7 +222,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # qwerty/azerty issue for letter z
-bindsym $mod+s layout stacking
+# bindsym $mod+s layout stacking
 bindsym $mod+z layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -702,6 +702,9 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
 
 bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
+
+# Other stuff
+bindsym $mod+s exec --no-startup-id "flameshot gui"
 
 ################# bar appearance                   
 
