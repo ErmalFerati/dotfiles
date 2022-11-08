@@ -1,9 +1,9 @@
-SNIPPETS_DIR="/home/ermal/Snippets/"
-source "${SNIPPETS_DIR}git-aliases.sh"
-source "${SNIPPETS_DIR}mvn-aliases.sh"
+SNIPPETS_DIR="$HOME/Scripts/"
+source "${SNIPPETS_DIR}git.sh"
+source "${SNIPPETS_DIR}mvn.sh"
 
 alias mk=minikube
 alias kl=kubectl
-alias kustomize=/home/ermal/kustomize
+alias kustomize="$HOME/kustomize"
 
-alias k6="/home/ermal/Tools/k6/pkg/k6/usr/bin/k6"
+alias k6="$HOME/Tools/k6/pkg/k6/usr/bin/k6"
