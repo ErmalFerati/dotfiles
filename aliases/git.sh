@@ -1,1 +1,7 @@
 alias gs="git status"
+alias gc="git commit"
+alias gch="git checkout"
+alias gp="git push"
+alias gpull="git pull"
+alias gst="git stash"
+alias gstpop="git stash pop"
